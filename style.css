@@ -1,0 +1,12 @@
+body {
+	font-family: Avenir, sans-serif;
+}
+
+.section-title {
+	font-size: 20px;
+	font-color: purple;
+}
+
+.section-info {
+	font-size: 16px;
+}
