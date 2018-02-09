@@ -4,20 +4,20 @@ body {
 
 .about-me {
 	float: left;
+	width: 50%;
 }
 
 .section-title {
-	font-size: 20px;
-	font-color: purple;
+	font-size: 18px;
+	color: #622da3;
 }
 
 .section-info {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .picture-self {
 	width: 200px;
-	height: 200px;
 }
 
 .additional-info {
