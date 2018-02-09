@@ -2,6 +2,10 @@ body {
 	font-family: Avenir, sans-serif;
 }
 
+.top-header {
+	text-align: center;
+}
+
 .about-me {
 	float: left;
 	width: 50%;
@@ -9,7 +13,7 @@ body {
 
 .section-title {
 	font-size: 18px;
-	color: #622da3;
+	color: #4e2a84;
 }
 
 .section-info {
@@ -17,7 +21,7 @@ body {
 }
 
 .picture-self {
-	width: 200px;
+	width: 25%;
 }
 
 .additional-info {
