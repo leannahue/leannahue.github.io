@@ -1,5 +1,9 @@
 body {
 	font-family: 'Barlow Condensed', sans-serif;
+	background-image: url(http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .top-header {
