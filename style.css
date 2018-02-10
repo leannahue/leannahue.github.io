@@ -53,7 +53,6 @@ body {
 .picture-self {
 	width: 70%;
 	margin-bottom: 10px;
-	text-align: center;
 	margin-left: 10%;
 }
 
@@ -65,4 +64,8 @@ body {
 	margin-bottom: 3%;
 	border: 5px solid #e3e8fc;
 	margin-top: 3%;
+}
+
+.picture-icon {
+	height: 18px;
 }
