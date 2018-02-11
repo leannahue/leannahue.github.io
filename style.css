@@ -49,10 +49,13 @@ body {
 	font-size: 35px;
 }
 
+.me-info {
+	margin-top: 15%;
+}
+
 .me-info p{
 	font-size: 20px;
 	text-decoration: none;
-	margin-top: 15%;
 }
 
 .section-info p{
