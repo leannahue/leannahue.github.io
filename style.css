@@ -2,8 +2,9 @@ body {
 	font-family: 'Barlow Condensed', sans-serif;
 	background-image: url(http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg);
 	background-repeat:no-repeat;
-	background-size: cover;
-	background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .top-header {
@@ -12,7 +13,7 @@ body {
 }
 
 .top-header h1{
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: 700;
 }
 
@@ -21,17 +22,21 @@ body {
 }
 
 .container {
-	
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .about-me {
 	background-color: white;
 	border-radius: 25px;
-	padding-left: 15px;
+	padding-left: 2%;
 	border: 5px solid #e3e8fc;
 	margin-top: 3%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+	/*margin-left: 2.5%;
+	margin-right: 2.5%;*/
+	padding-bottom: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
 }
 
 .section-title {
@@ -41,35 +46,50 @@ body {
 
 .section-title h2{
 	font-weight: 550;
+	font-size: 35px;
 }
 
-.me-info {
-	font-size: 18px;
+.me-info p{
+	font-size: 20px;
 	text-decoration: none;
+	margin-top: 15%;
 }
 
-.section-info {
-	font-size: 18px;
+.section-info p{
+	font-size: 20px;
 	text-decoration: none;
 	color: black;
 }
 
 .picture-self {
-	width: 70%;
+	width: 90%;
 	margin-bottom: 10px;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-top: 3%;
 }
 
 .additional-info {
 	background-color: white;
 	border-radius: 25px;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+/*	margin-left: 2.5%;
+	margin-right: 2.5%;*/
 	margin-bottom: 3%;
 	border: 5px solid #e3e8fc;
 	margin-top: 3%;
+	padding-left: 2%;
+	margin-bottom: 3%;
+	padding-right: 2%;
+	padding-bottom: 1%;
 }
 
 .picture-icon {
 	height: 18px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
